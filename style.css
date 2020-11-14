@@ -27,6 +27,7 @@ body {
 .bg {
   background: url("/images/bg-curve-desktop.svg") no-repeat center center/cover;
 }
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -62,7 +63,7 @@ h4 {
   color: var(--neutral2);
   font-size: 15px;
   width: 50%;
-  height: 25px;
+  height: 35px;
 }
 .form button {
   font-family: var(--font);
@@ -71,7 +72,7 @@ h4 {
   border: 1px solid var(--accent);
   width: 40%;
   cursor: pointer;
-  height: 30px;
+  height: 35px;
   color: var(--neutral);
   border-radius: 3px;
 }
@@ -180,4 +181,71 @@ h4 {
 .social i {
   color: var(--neutral);
   font-size: 22px;
+}
+@media screen and (min-width: 1440px){
+  .nav-bar{
+margin: 0 auto;
+  }
+  
+.wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+}
+@media screen and (max-width: 780px) {
+  
+  main{
+    margin: 0 auto;
+  }
+  .content{
+    grid-template-columns: 1fr;
+  }
+
+  .form input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+  }
+  .form button{
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .sub-content{
+    row-gap: 20px;
+  }
+  .card-contain{
+    margin: 55px 20px 0;
+  }
+  .contact{
+    grid-template-columns: 1fr;
+  }
+  .cont{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .nav-bar div a{
+    letter-spacing: 0;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  .footer{
+    grid-template-columns: 1fr;
+  }
+  .f-contact{
+    padding: 0 50px;
+    margin: 0;
+    grid-template-columns: 1fr;
+  }
+  .c-list,.social{
+    padding: 0;
+  }
+  .social{
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50%;
+    margin-bottom: 40px;
+  }
 }

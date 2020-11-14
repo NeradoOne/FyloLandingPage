@@ -11,13 +11,10 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <title>Frontend Mentor | Fylo landing page</title>
 
     <!--  G-FONTS -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet"/>
     <!--  ICONS -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
@@ -28,7 +25,7 @@
   </head>
   <body>
     <!--  NAV BAR -->
-    <nav class="nav-bar">
+    <nav class=" wrapper nav-bar">
       <img src="./images/logo.svg" alt="Logo" />
       <div>
         <a href="#features">Features</a>
@@ -37,8 +34,11 @@
       </div>
     </nav>
     <!--  CONTENIDO -->
-    <main>
+    <main class="wrapper">
       <section id="features" class="content">
+        <div>
+          <img src="./images/illustration-1.svg" alt="Accesible Files" />
+        </div>
         <div>
           <h1>All your files in one secure location, accessible anywhere.</h1>
           <p>
@@ -51,12 +51,12 @@
             <button type="submit">Get Started!</button>
           </div>
         </div>
-        <div>
-          <img src="./images/illustration-1.svg" alt="Accesible Files" />
-        </div>
       </section>
       <!--  SECTION 2 -->
       <section id="team" class="content bg">
+        <div>
+          <img src="./images/illustration-2.svg" alt="Productivity" />
+        </div>
         <div class="sub-content">
           <div>
             <h2>Stay productive, wherever you are</h2>
@@ -86,14 +86,11 @@
                 alt="Photo"
               />
               <h4>
-                Kyle Burton <br/>
+                Kyle Burton <br />
                 Founder & CEO, Huddle
               </h4>
-              </div>
+            </div>
           </div>
-        </div>
-        <div>
-          <img src="./images/illustration-2.svg" alt="Productivity" />
         </div>
       </section>
       <!--  CONTACTO  -->
@@ -123,7 +120,8 @@
                 <img src="./images/icon-phone.svg" alt="Phone" /> (543)123-4567
               </li>
               <li>
-                <img src="./images/icon-email.svg" alt="Mail" /> example@fylo.com
+                <img src="./images/icon-email.svg" alt="Mail" />
+                example@fylo.com
               </li>
             </ul>
           </div>
@@ -156,11 +154,16 @@
         </div>
       </div>
     </main>
-    <footer>
+    <!--  FOOTER   -->
+    <footer class="wrapper">
       <p class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
         . Coded by <a href="#">NeradoOne</a>.
       </p>
     </footer>
+
   </body>
 </html>
