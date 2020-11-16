@@ -77,7 +77,7 @@ h4 {
   border-radius: 3px;
 }
 .content img {
-  width: 100%; 
+  width: 100%;
 }
 .content a {
   font-family: var(--font);
@@ -186,92 +186,88 @@ h4 {
   padding: 10px;
   border: 1px solid var(--neutral2);
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
   will-change: color;
 }
-.social i:hover{
+.social i:hover {
   color: var(--accent);
   padding: 8px;
 }
-li:hover{
+li:hover {
   color: var(--accent);
 }
 
-
-@media screen and (min-width: 1024px){
-  .nav-bar{
-margin: 0 auto;
+@media screen and (min-width: 1024px) {
+  .nav-bar {
+    margin: 0 auto;
   }
-  
-.wrapper{
-  max-width: 1400px;
-  margin: 0 auto;
-}
+
+  .wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 768px) {
-  .content{
+  .content {
     grid-template-columns: 1fr;
   }
 
-  .form input{
+  .form input {
     box-sizing: border-box;
     display: block;
     width: 100%;
   }
-  .form button{
+  .form button {
     width: 100%;
     margin: 10px 0;
   }
 
-  .sub-content{
+  .sub-content {
     row-gap: 20px;
   }
-  .card-contain{
+  .card-contain {
     margin: 80px 10px 0;
   }
-  .contact{
+  .contact {
     grid-template-columns: 1fr;
   }
-  .cont{
+  .cont {
     padding: 0;
   }
-
 }
-
-@media screen and (max-width: 580px){
-  .nav-bar div a{
+@media screen and (max-width: 580px) {
+  .nav-bar div a {
     letter-spacing: 0;
     margin: 0 10px;
     font-size: 16px;
   }
-  .card-contain h4{
+  .card-contain h4 {
     font-size: 12px;
   }
 
-
-  .footer{
+  .footer {
     grid-template-columns: 1fr;
-
   }
-  .f-contact{
+  .f-contact {
     padding: 0 50px;
     margin: -100px 0 0;
     grid-template-columns: 1fr;
   }
-  .c-list,.social{
+  .c-list,
+  .social {
     padding: 0;
   }
-  .social{
+  .social {
     width: 100%;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 40px;
   }
-  .social div{
+  .social div {
     margin: 0 auto;
   }
 
-  .footer .logo{
+  .footer .logo {
     padding: 0 50px;
     margin: 60px 0 0;
   }
